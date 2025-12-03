@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="config.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="devctrl.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="hotplug.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="minifilter.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MonitorHandle.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="network.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="policy.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="process.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="public.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="register.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="thread.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="XyDriver.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tdi.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="loadimage.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StackWalker.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="config.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="devctrl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="hotplug.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="minifilter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MonitorHandle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="network.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="policy.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="process.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="public.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="register.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="thread.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tdi.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="loadimage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StackWalker.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{b12fe724-69a3-4f98-82aa-0fd5914d22a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{b987281e-1b5f-41eb-af28-c1e248f48262}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{2164e6ce-21a5-4a3f-b829-b5caf289097a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Inf Include="XyDriver.inf">
+      <Filter>资源文件</Filter>
+    </Inf>
+  </ItemGroup>
+</Project>
